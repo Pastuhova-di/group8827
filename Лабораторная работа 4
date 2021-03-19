@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="css/1.css" rel="stylesheet" type="text/css"/>
+
+<meta http-equiv="Content-Type" content="text/html; 
+charset=UTF-8" />
+</head>
+<body>
+<header>
+<right>
+<a href = "enter.html" title="Войти"><font size="2.5">Вход</font></a></span></span>
+<a href = "registr.html" title="Зарегистрироваться"><font size="2.5">Регистрация</font></a></span> <span class="contact">
+</header>
+<div id="cont">
+<div id="fon">
+<div class="clear"><br /></div>
+	<center>
+<HR whidth="80%" size= "3"color="black">
+        <div id="menuHrefs">
+                 <a href="index.html">Главная</a>
+                 <a href="magazin.html">Магазин</a>
+                 <a href="kontact.html">Контакты</a>
+                 <a href="questions.html">Вопросы и ответы</a>
+                 <a href="inform.html">Информация</a>
+</div>
+</center>
+	<div id="text12">
+	<br></br>
+
+<title>Вход</title>
+</head>
+<body>
+<form class=" enter ">
+    <p class="clearfix">
+<center>
+<h1>Войти 
+ <HR whidth="80%" size= "1"color="white">
+</h1>
+</center>
+
+        <label for="login">Логин</label>
+        <input type="text" name="login" id="login" placeholder="Логин">
+    </p>
+    <p class="clearfix">
+        <label for="password">Пароль</label>
+        <input type="password" name="password" id="password" placeholder="Пароль">
+    </p>
+    <p class="clearfix">
+        <input type="checkbox" name="remember" id="remember">
+        <label for="remember">Запомнить меня</label>
+    </p>
+    <p class="clearfix">
+        <input type="submit" name="submit" value="Войти">
+<input type="submit" name="submit" value="Зарегистрироваться">
+    </p>      
+</form>
+</body>
+</html>
